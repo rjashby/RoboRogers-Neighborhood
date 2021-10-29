@@ -21,10 +21,10 @@
 *Code:* roboRogers("5");
 *Expected output:* "5"
 
-*Test:* "It should... "
-*Code:* roboRogers("");
-*Expected output:* ""
+*Test:* "When given a string of numbers, it should replace "1" with "Beep! and leave the remaining numbers intact."
+*Code:* roboRogers("1231");
+*Expected output:* "Beep!23Beep!"
 
-*Test:* "It should... "
-*Code:* roboRogers("");
-*Expected output:* ""
+*Test:* "When given a string of numbers, it should replace "2" with "Boop!" and leave the remaining numbers intact."
+*Code:* roboRogers("1221");
+*Expected output:* "1Boop!Boop!1"

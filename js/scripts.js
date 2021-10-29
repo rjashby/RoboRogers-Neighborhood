@@ -42,6 +42,8 @@ function roboRogers(input) {
   splitNumbers.forEach(function(number) {
     if (responsiveNumbers[0].includes(number)) {
       rogersResponse.push(responseList[0]);
+    } else if (responsiveNumbers[1].includes(number)) {
+      rogersResponse.push(responseList[1]);
     } else {
       rogersResponse.push(number)
     }
