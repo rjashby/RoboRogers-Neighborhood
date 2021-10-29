@@ -40,7 +40,7 @@ function roboRogers(input) {
   let rogersResponse = [];
   console.log(splitNumbers)
   splitNumbers.forEach(function(number) {
-    if (responsiveNumbers.includes(number)) {
+    if (responsiveNumbers[0].includes(number)) {
       rogersResponse.push(responseList[0]);
     } else {
       rogersResponse.push(number)
