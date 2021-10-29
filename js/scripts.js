@@ -7,12 +7,13 @@ $(document).ready(function() {
       if ($("#formNumber").val() == "") {
         alert("Please Enter A Number");
       }
-    $("#results").fadeIn(roboRogers("input#formNUmber"));
+    $("#results").fadeIn(roboRogers(yourNumber));
   });
 });
 
 // Business Logic //
 function roboRogers(input) {
+  const yourNumber = $("input#formNumber").val();
   const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]
   if (input === 0) {
     return 0;
