@@ -35,7 +35,7 @@ function roboRogers(input) {
   if (input === [4, 5 ,6, 7, 8, 9]) {
     return input
   }
-  const responsiveNumbers = [1, 2, 3];
+  const responsiveNumbers = ["1", "2", "3"];
   const splitNumbers = input.toString().split("");
   let rogersResponse = [];
   console.log(splitNumbers)
@@ -45,7 +45,6 @@ function roboRogers(input) {
     } else {
       rogersResponse.push(number)
     }
-  return splitNumbers.join("");
-  console.log(rogersResponse);
   });
+  return rogersResponse.join("");
 };
