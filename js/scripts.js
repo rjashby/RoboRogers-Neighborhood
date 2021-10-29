@@ -3,17 +3,13 @@ $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     event.preventDefault()
     $("#results").hide();
-    const yourNumber = parseInt($("input#formNumber").val());
-    if ($("#formNumber").val() == "") {
-      return ("")
-      alert("Please Enter A Number");
-   
-    $("#results").show();
-    }
+      if ($("#formNumber").val() == "") {
+        alert("Please Enter A Number");
+      }
+    $("#results").fadeIn();
   });
 });
 
-// Business Logic //
 function roboRogers(input) {
   const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]
   if (input === 0) {
@@ -32,27 +28,20 @@ function roboRogers(input) {
     return input
   }
   const responsiveNumbers = ["1", "2", "3"];
+  const yourNumber = $("input#formNumber").val();
   const splitNumbers = input.toString().split("");
   let rogersResponse = [];
   console.log(splitNumbers)
-  splitNumbers.forEach(function(number) {
-    if (responsiveNumbers[0].includes(number)) {
+  splitNumbers.forEach(function(yourNumber) {
+    if (responsiveNumbers[0].includes(yourNumber)) {
       rogersResponse.push(responseList[0]);
-    } else if (responsiveNumbers[1].includes(number)) {
+    } else if (responsiveNumbers[1].includes(yourNumber)) {
       rogersResponse.push(responseList[1]);
-    } else if (responsiveNumbers[2].includes(number)) {
+    } else if (responsiveNumbers[2].includes(yourNumber)) {
       rogersResponse.push(responseList[2]);
     } else {
-      rogersResponse.push(number)
+      rogersResponse.push(yourNumber)
     }
   });
   return rogersResponse.join(" ");
-};
-
-function countUp(number) {
-  let numberArray = []
-  for (let index = 0; index <= number; index ++) {
-    numberArray.push([index].val())
- };
- numberArray;
 };
