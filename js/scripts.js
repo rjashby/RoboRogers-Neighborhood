@@ -13,12 +13,24 @@ $(document).ready(function() {
   });
 });
 
+// const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]//
+
+// if (number === 0) {
+  return 0; //
+
 // Business Logic //
 function roboRogers(number) {
-  const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]
-  const numberArray = number.split("");
+  const responsiveNumbers = [1, 2, 3];
+  const numberArray = number.toString().split("");
   let rogersResponse = [];
-  if (number === 0) {
-    return 0;
-  }
-}
+  console.log(rogersResponse)
+  numberArray.forEach(function(number) {
+    if (responsiveNumbers.includes(number)) {
+      rogersResponse.push("Beep!");
+    } else {
+      rogersResponse.push(number);
+    }
+    return rogersResponse.join("");
+    console.log(rogersResponse)
+  });
+};
