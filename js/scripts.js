@@ -33,7 +33,7 @@ function roboRogers(input) {
     return responseList[2];
   }
   const responsiveNumbers = [1, 2, 3];
-  let splitNumbers = input.split("");
+  let splitNumbers = input.toString().split("");
   let numberLength = 0;
   let rogersResponse = [];
   console.log(splitNumbers)
