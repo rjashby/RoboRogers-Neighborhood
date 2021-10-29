@@ -32,18 +32,21 @@ function roboRogers(input) {
   if (input == 3) {
     return responseList[2];
   }
+  if (input === [4, 5 ,6, 7, 8, 9]) {
+    return input
+  }
   const responsiveNumbers = [1, 2, 3];
   let splitNumbers = input.toString().split("");
   let numberLength = 0;
   let rogersResponse = [];
   console.log(splitNumbers)
-  splitNumbers.forEach(function(number) {
-    if (number.includes(responsiveNumbers)) {
+  splitNumbers.forEach(function(input) {
+    if (input.includes(responsiveNumbers)) {
       rogersResponse.push("Beep!");
     } else {
-      rogersResponse.push(number);
+      rogersResponse.push(input);
     }
-    return rogersResponse.concat("");
+    return rogersResponse.join("");
     console.log(rogersResponse)
   });
 };

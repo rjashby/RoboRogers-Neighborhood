@@ -17,10 +17,9 @@
 *Code:* roboRogers("3");
 *Expected output:* "Won't you be my neighbor?"
 
-
-*Test:* "It should... "
-*Code:* roboRogers("");
-*Expected output:* ""
+*Test:* "It should the same output as the value inputted for numbers 4 - 9."
+*Code:* roboRogers("5");
+*Expected output:* "5"
 
 *Test:* "It should... "
 *Code:* roboRogers("");
