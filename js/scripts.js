@@ -37,14 +37,15 @@ function roboRogers(input) {
   }
   const responsiveNumbers = [1, 2, 3];
   const splitNumbers = input.toString().split("");
-  let numberLength = "";
   let rogersResponse = [];
   console.log(splitNumbers)
-  console.log(splitNumbers.includes("1"))
   splitNumbers.forEach(function(number) {
     if (responsiveNumbers.includes(number)) {
-      rogersResponse.push(number);
+      rogersResponse.push(responseList[0]);
+    } else {
+      rogersResponse.push(number)
     }
-  rogersResponse.join("");
+  return splitNumbers.join("");
+  console.log(rogersResponse);
   });
 };
