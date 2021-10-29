@@ -6,12 +6,17 @@ $(document).ready(function() {
     const yourNumber = parseInt($("input#formNumber").val());
     if ($("#formNumber").val() == "") {
       return ("")
+      $("#results").show();
       alert("Please Enter A Number");
     } else ($("#formNumber").val() ==  {
       return (number)
-    }
+    });
   });
-
+});
 
 // Business Logic //
-function roboRogers();
+function roboRogers(number) {
+  if (number === 0) {
+    return 0;
+  }
+}
