@@ -23,8 +23,12 @@
 
 *Test:* "When given a string of numbers, it should replace "1" with "Beep! and leave the remaining numbers intact."
 *Code:* roboRogers("1231");
-*Expected output:* "Beep!23Beep!"
+*Expected output:* "Beep! 2 3 Beep!"
 
 *Test:* "When given a string of numbers, it should replace "2" with "Boop!" and leave the remaining numbers intact."
 *Code:* roboRogers("1221");
-*Expected output:* "1Boop!Boop!1"
+*Expected output:* "1 Boop! Boop! 1"
+
+*Test:* "When given a string of numbers, it should replace "3" with "Won't you be my neighbor?" and leave the remaining numbers intact."
+*Code:* roboRogers("123");
+*Expected output:* "1 2 Won't you be my neighbor?"

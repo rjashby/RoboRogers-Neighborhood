@@ -44,9 +44,11 @@ function roboRogers(input) {
       rogersResponse.push(responseList[0]);
     } else if (responsiveNumbers[1].includes(number)) {
       rogersResponse.push(responseList[1]);
+    } else if (responsiveNumbers[2].includes(number)) {
+      rogersResponse.push(responseList[2]);
     } else {
       rogersResponse.push(number)
     }
   });
-  return rogersResponse.join("");
+  return rogersResponse.join(" ");
 };
