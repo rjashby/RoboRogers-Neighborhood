@@ -6,16 +6,18 @@ $(document).ready(function() {
     const yourNumber = parseInt($("input#formNumber").val());
     if ($("#formNumber").val() == "") {
       return ("")
-      $("#results").show();
       alert("Please Enter A Number");
-    } else ($("#formNumber").val() ==  {
-      return (number)
-    });
+   
+    $("#results").show();
+    }
   });
 });
 
 // Business Logic //
 function roboRogers(number) {
+  const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]
+  const numberArray = number.split("");
+  let rogersResponse = [];
   if (number === 0) {
     return 0;
   }
