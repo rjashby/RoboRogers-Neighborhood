@@ -1,6 +1,6 @@
 ## Spec Tests
 
-### Description: roboRogers()
+### Description: roboRogers(input)
 *Test:* "It should return "0" if the number "0" is inputted."
 *Code:* roboRogers("0");
 *Expected output:* "0"
@@ -32,3 +32,8 @@
 *Test:* "When given a string of numbers, it should replace "3" with "Won't you be my neighbor?" and leave the remaining numbers intact."
 *Code:* roboRogers("123");
 *Expected output:* "1 2 Won't you be my neighbor?"
+
+### Description: countUp(number)
+*Test:* "It should return return an array of numbers from 0 to the inputted number"
+*Code:* countUp("5");
+*Expected output:* [0, 1, 2, 3, 4, 5]

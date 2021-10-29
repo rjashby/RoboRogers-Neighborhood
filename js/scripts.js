@@ -13,10 +13,6 @@ $(document).ready(function() {
   });
 });
 
-
-// if (number === 0) {
-  return 0; //
-
 // Business Logic //
 function roboRogers(input) {
   const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]
@@ -51,4 +47,12 @@ function roboRogers(input) {
     }
   });
   return rogersResponse.join(" ");
+};
+
+function countUp(number) {
+  let numberArray = []
+  for (let index = 0; index <= number; index ++) {
+    numberArray.push([index].val())
+ };
+ numberArray;
 };
