@@ -9,9 +9,9 @@
 *Code:* roboRogers("1");
 *Expected output:* "Beep!"
 
-*Test:* "It should... "
-*Code:* roboRogers("");
-*Expected output:* ""
+*Test:* "It should return "Boop!" if the number "2" is inputted."
+*Code:* roboRogers("2");
+*Expected output:* "Boop!"
 
 *Test:* "It should... "
 *Code:* roboRogers("");
