@@ -13,9 +13,10 @@
 *Code:* roboRogers("2");
 *Expected output:* "Boop!"
 
-*Test:* "It should... "
-*Code:* roboRogers("");
-*Expected output:* ""
+*Test:* "It should return "Won't you be my neighbor?" if the number "3" is inputted."
+*Code:* roboRogers("3");
+*Expected output:* "Won't you be my neighbor?"
+
 
 *Test:* "It should... "
 *Code:* roboRogers("");

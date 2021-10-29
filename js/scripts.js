@@ -29,6 +29,9 @@ function roboRogers(input) {
   if (input == 2) {
     return responseList[1];
   }
+  if (input == 3) {
+    return responseList[2];
+  }
   const responsiveNumbers = [1, 2, 3];
   let splitNumbers = input.split("");
   let numberLength = 0;
