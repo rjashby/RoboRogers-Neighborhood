@@ -6,8 +6,11 @@ $(document).ready(function() {
     const yourNumber = $("input#formNumber").val();
       if ($("#formNumber").val() == "") {
         alert("Please Enter A Number");
+        $("#results").hide();
+      } else {
+
+        $("#results").fadeIn();
       }
-    $("#results").fadeIn(roboRogers(yourNumber));
   });
 });
 
@@ -49,9 +52,9 @@ function roboRogers(input) {
 };
 
 function countUp(number) {
-  let numberArray = []
+  let numberArray = [];
   for (let index = 0; index <= number; index ++) {
-    numberArray.push([index])
+    numberArray.push(index)
  };
  numberArray;
  console.log(numberArray);
