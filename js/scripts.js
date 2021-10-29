@@ -13,24 +13,31 @@ $(document).ready(function() {
   });
 });
 
-// const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]//
 
 // if (number === 0) {
   return 0; //
 
 // Business Logic //
-function roboRogers(number) {
+function roboRogers(input) {
+  const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]
+  if (input === 0) {
+    return 0;
+  }
+  if (input === 1) {
+    return responseList[0];
+  }
   const responsiveNumbers = [1, 2, 3];
-  const numberArray = number.toString().split("");
+  let splitNumbers = input.split("");
+  let numberLength = 0;
   let rogersResponse = [];
-  console.log(rogersResponse)
-  numberArray.forEach(function(number) {
-    if (responsiveNumbers.includes(number)) {
+  console.log(splitNumbers)
+  splitNumbers.forEach(function(number) {
+    if (number.includes(responsiveNumbers)) {
       rogersResponse.push("Beep!");
     } else {
       rogersResponse.push(number);
     }
-    return rogersResponse.join("");
+    return rogersResponse.concat("");
     console.log(rogersResponse)
   });
 };
