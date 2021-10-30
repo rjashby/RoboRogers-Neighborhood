@@ -1,4 +1,3 @@
-// UI Logic //
 $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     event.preventDefault()
@@ -13,8 +12,6 @@ $(document).ready(function() {
       }
   });
 });
-
-// Business Logic //
 function roboRogers(input) {
   const yourNumber = $("input#formNumber").val();
   const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]
@@ -51,14 +48,14 @@ function roboRogers(input) {
   return rogersResponse.join(" ");
 };
 
-function countUp(number) {
-  let numberArray = [];
-  for (let index = 0; index <= number; index ++) {
-    numberArray.push(index)
- };
- numberArray;
- console.log(numberArray);
-};
+// function countUp(number) {
+//  let numberArray = [];
+//  for (let index = 0; index <= number; index ++) {
+//    numberArray.push(index)
+// };
+// numberArray;
+// console.log(numberArray);
+// };
 
 
 // } else if (responsiveNumbers[0 && 2].includes(number)) {
