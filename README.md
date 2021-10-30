@@ -33,6 +33,10 @@
 *Code:* roboRogers("123");
 *Expected output:* "1 2 Won't you be my neighbor?"
 
+*Test:* "When given a number larger than a single digit, it should return a string that follows the rules above."
+*Code:* roboRogers("11");
+*Expected output:* "0 , Beep! , Boop! , Won't you be my neighbor? , 4 , 5 , 6 , 7 , 8 , 9 , Beep! 0 , Beep! Beep!"
+
 ### Description: countUp(number)
 *Test:* "It should return return an array of numbers from 0 to the inputted number"
 *Code:* countUp("5");

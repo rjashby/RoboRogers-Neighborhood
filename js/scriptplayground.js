@@ -60,18 +60,6 @@ function roboRogers(yourNumber) {
   if (splitNumbers === 0) {
     return 0;
   };
-  if (splitNumbers == 1) {
-    return responseList[0];
-  };
-  if (splitNumbers == 2) {
-    return responseList[1];
-  };
-  if (splitNumbers == 3) {
-    return responseList[2];
-  };
-  if (splitNumbers === [4, 5 ,6, 7, 8, 9]) {
-    return yourNumber
-  };
   splitNumbers.forEach(function(number) {
     if (responsiveNumbers[0].includes(number)) {
       rogersResponse.push(responseList[0]);
@@ -84,4 +72,21 @@ function roboRogers(yourNumber) {
     };
   });
   return rogersResponse.join(" ");
+};
+
+
+if (splitNumbers === 0) {
+  return 0;
+};
+if (splitNumbers == 1) {
+  return responseList[0];
+};
+if (splitNumbers == 2) {
+  return responseList[1];
+};
+if (splitNumbers == 3) {
+  return responseList[2];
+};
+if (splitNumbers === [4, 5 ,6, 7, 8, 9]) {
+  return yourNumber
 };
