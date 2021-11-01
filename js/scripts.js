@@ -4,10 +4,10 @@ $(document).ready(function() {
     $("#results").hide();
     let yourNumber = parseInt($("input#formNumber").val());
     console.log(yourNumber); 
-    function roboRogers(yourNumber) {
-      console.log(yourNumber);
+    function roboRogers(number) {
+      console.log(number);
       let numberArray = [];
-        for (let index = 0; index <= yourNumber; index ++) {
+        for (let index = 0; index <= number; index ++) {
           numberArray.push(index)
         };
         numberArray;
@@ -37,5 +37,6 @@ $(document).ready(function() {
       } else {
         $("#results").fadeIn();
       }
+    roboRogers(yourNumber);  
   });
 });

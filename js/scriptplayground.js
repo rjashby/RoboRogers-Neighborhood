@@ -134,7 +134,9 @@ $(document).ready(function() {
         alert("Please Enter A Number");
       } else {
         $("#results").fadeIn();
-        $("#rogersResponse").html(rogersResponse);
+        
       }
   });
 });
+
+//$("#final").html(rogersResponse);
