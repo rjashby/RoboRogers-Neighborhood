@@ -10,7 +10,6 @@ $(document).ready(function() {
         for (let index = 0; index <= number; index ++) {
           numberArray.push(index)
         };
-        numberArray;
         console.log(numberArray);
       const responseList = ["Beep!", "Boop!", "Won't you be my neighbor?"]
       const responsiveNumbers = ["1", "2", "3"];
@@ -25,18 +24,19 @@ $(document).ready(function() {
         } else if (responsiveNumbers[2].includes(number)) {
           rogersResponse.push(responseList[2]);
         } else {
-          rogersResponse.push(number)
+          rogersResponse.push(number);
           $("#final").text(rogersResponse);
         };
       });
-      return rogersResponse.join(" ");
+      let finalArray = rogersResponse.join(" ")
+      return finalArray;
       };
-      if ($("#formNumber").val() == "") {
-        $("#results").hide();
-        alert("Please Enter A Number");
-      } else {
-        $("#results").fadeIn();
-      }
+    if ($("#formNumber").val() == "") {
+      $("#results").hide();
+      alert("Please Enter A Number");
+    } else {
+      $("#results").fadeIn();
+    }
     roboRogers(yourNumber);  
   });
 });
