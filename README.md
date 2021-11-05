@@ -1,13 +1,13 @@
 
-# _Programming Language Suggester_ 
+# _Mr. ROBO Rogers Neighborhood_ 
 
 #### By _**Ryan Ashby**_ 
 
-#### _This program helps you pick a programming language to study based upon your input in form fields_ 
+#### _This program allows you to input a number and get a series of responses back from the legendary Mr. (ROBO) Rogers_ 
 
 ### _Link to the Site_
 
-* https://github.com/rjashby/Language-Suggester.git
+* https://github.com/rjashby/RoboRogers-Neighborhood
 
 ## Technologies Used 
 
@@ -24,7 +24,7 @@
 
 ## Description 
 
-_This simply program provides a user with a series of input fields (including their age, date of birth, favorite color, favorite podcast, and favorite cereal), and asks the user to enter their data into the forms, and submit the results via a submit button at the bottom of the page. Once submitted, the program with spit out a suggested programming language for the user to study; in this case, either C#, JavaScript, or Python, based upon the input they provided to the site._ 
+_This program has the user input a number and it spits back a series of responses from the talented Mr. Robo Rogers. He slices, he dices, he even... ummm... Well he doesn't say much, but he's not alive anymore. So, give the guy a break._ 
 
 ## Setup/Installation Requirements 
 
@@ -36,12 +36,12 @@ _This simply program provides a user with a series of input fields (including th
 * _As you add, edit, and change your code, the command "$ git status" will inform you what has been recently altered in the git._
 * _Once any changes are made, utilize the command "$ git add ." to add the necessary files to be committed_
 * _To commit any changes, use the command "$ git commit -m "description of what was altered for ease of reference."_
-* _For example, the command "$ git commit -m "create initial html and style sheet pages," would be a short and concise example of a good initial commit to save your work.
+* _For example, the command "$ git commit -m "create initial html and style sheet pages," would be a short and concise example of a good initial commit to save your work._
 * _The command "$ git log" will show the history of the commits that have been made. If the list is long, you may need to type the letter "Q" on your keyboard to return to your code terminal._
-* If you'd like, you can sign up for own Github account, so you can store any works of your own to share and/or publish, which can be done for free at https://github.com/_.  
+* _If you'd like, you can sign up for own Github account, so you can store any works of your own to share and/or publish, which can be done for free at https://github.com/ ._  
 * _Once you have your Github account, you can create your own repositories to share with others and publish as you see fit._
 * _Create a way to save your changes to your own personal Github account by adding a remote to your page via the command "$ git remote add {nickname for your remote} {url of your Github repository}."_
-* _For example, the command "$ git remote add ra https://github.com/rjashby/interior-decorator," would add a new remote called "ra" located at "https://github.com/rjashby/interior-decorator".
+* _For example, the command "$ git remote add ra https://github.com/rjashby/interior-decorator," would add a new remote called "ra" located at "https://github.com/rjashby/interior-decorator"._
 * _To "push" and save the changes to your Github repository, use the command "$git push {nickname for your remote} {url of your Github repository}."_ 
 *_"Pushing" your commits saves them to the cloud server on Github, and allows you (or someone else) to clone down your saved repository in the same manner provided above._
 
