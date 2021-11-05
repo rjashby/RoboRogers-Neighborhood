@@ -19,7 +19,7 @@ function roboRogers(number) {
       };
   });
   let finalArray = rogersResponse.join(", ")
-  //$("#final").text(finalArray)
+  $("#final").text(finalArray)
   return finalArray;
 };
 
