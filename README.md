@@ -37,6 +37,18 @@
 *Code:* roboRogers("11");
 *Expected output:* "0 , Beep! , Boop! , Won't you be my neighbor? , 4 , 5 , 6 , 7 , 8 , 9 , Beep! 0 , Beep! Beep!"
 
+*Test:* "When given a number that reaches the number 13, it should return a string that follows the rules above, but also has the number 13 being changed to "Won't you be my neighbor."
+*Code:* roboRogers("13");
+*Expected output:* "0 , Beep! , Boop! , Won't you be my neighbor? , 4 , 5 , 6 , 7 , 8 , 9 , Beep! 0 , Beep! Beep!, Beep! Boop!, Won't You Be My Neighbor?"
+
+*Test:* "When given a number that reaches the number 21, it should return a string that follows the rules above, but also has the number 21 being changed to "Boop!"
+*Code:* roboRogers("21");
+*Expected output:* ""0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!, Beep!, Beep!, Beep!, Beep!, Beep!, Boop!, Boop!"
+
+*Test:* "When given a number that reaches the number 32, it should return a string that follows the rules above, but also has the number 32 being changed to "Won't you be my neighbor."
+*Code:* roboRogers("21");
+*Expected output:* ""0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!, Beep!, Beep!, Beep!, Beep!, Beep!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Boop!, Boop!, Boop!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Won't you be my neighbor?, Won't you be my neighbor?"
+
 ### Description: countUp(number)
 *Test:* "It should return return an array of numbers from 0 to the inputted number"
 *Code:* countUp("5");
